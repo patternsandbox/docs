@@ -2,29 +2,31 @@
   "name": "builder",
   "summary": "Builder pattern separate the complexities of the creation logic from the final representation.",
   "description": [
-    "A builder pattern is a design pattern that lets us extract the object construction out of its own class (its representation) so that it can be used for multiple different representations. One advantage to using this pattern is that it lets us build objects with one operation on top of another where we don’t need to call all operations simultaneously, only the ones that are needed to produce a particular output. Ref: [code.burst.yash.sharma]",
-    "Builders allow us to construct complex objects by only specifying the type and content of the object, shielding us from the process of creating or representing the object explicitly. Ref. [learning.javascript.design.patterns.addy.osmani]",
+    "The parameters in the constructor are reduced and served in a much more readable way, and thus there is no need to pass in null for optional parameters to the constructor. Ref. [itay.elgazar]",
+    "A builder pattern is a design pattern that lets us extract the object construction out of its own class (its representation) so that it can be used for multiple different representations. One advantage to using this pattern is that it lets us build objects with one operation on top of another where we don’t need to call all operations simultaneously, only the ones that are needed to produce a particular output. Ref: [yash.sharma]",
+    "Builders allow us to construct complex objects by only specifying the type and content of the object, shielding us from the process of creating or representing the object explicitly. Ref. [addy.osmani]",
     "Builder pattern separates the `construction` of complex object which involve `computing multiple sequential operations` from its `representation`. It produces different representations of an object using the same construct",
     "The builder design pattern is self-explanatory. It creates objects but it really shines when there is a need to create multiple objects with some similarities. A builder avoids the necessity to create myriad subclasses from a base class or big constructors with a lot of conditional logic using method chaining. Ref: [log.rocket.eslam.hefnawy]"
   ],
   "category": "creational",
   "problem": [
-    "You can use the builder pattern to avoid a common issue known as telescoping constructors, which is when you create smaller versions of a big constructor to reduce the amount of logic in the constructor. Ref. [log.rocket.eslam.hefnawy]",
+    "You can use the builder pattern to avoid a common issue known as telescoping constructors, which is when you create smaller versions of a big constructor to reduce the amount of logic in the constructor. Ref. [eslam.hefnawy]",
     "The problem solved by the Builder pattern is easy to identify: this pattern should be used when it is necessary to use a constructor with a very long parameter list or when there is a long list of constructors with different parameters. Ref: [carlos.caballero]",
     "Imagine a complex object that requires laborious, step-by-step initialization of many fields and nested objects. Such initialization code is usually buried inside a monstrous constructor with lots of parameters. Or even worse: scattered all over the client code. Ref: [refactoring.guru]",
-    "Imagine having a complex object that requires a large, systematic step-by-step initialization of abundant fields and nested objects. This can get buried inside a huge constructor with many parameters — or even scattered throughout your code. Ref: [the.builder.pattern.in.javascript.jsmanifest]",
-    "The seemingly easiest solution to complex object is to extend the base car class and create a set of subclasses, each covering pieces of the parameters. But if you think about it, you will eventually face the issue of having to create new subclasses every time you come across new parameters, such as having tinted windows. And every time this happens, your hierarchy will grow even more. Ref: [better.programming.jsmanifest]"
+    "Imagine having a complex object that requires a large, systematic step-by-step initialization of abundant fields and nested objects. This can get buried inside a huge constructor with many parameters — or even scattered throughout your code. Ref: [jsmanifest]",
+    "The seemingly easiest solution to complex object is to extend the base car class and create a set of subclasses, each covering pieces of the parameters. But if you think about it, you will eventually face the issue of having to create new subclasses every time you come across new parameters, such as having tinted windows. And every time this happens, your hierarchy will grow even more. Ref: [jsmanifest]"
   ],
   "example": [],
   "refs": {
     "javascript": {
-      "the.builder.pattern.in.javascript.jsmanifest": "https://jsmanifest.com/the-builder-pattern-in-javascript/",
-      "code.burst.yash.sharma": "https://codeburst.io/builder-pattern-in-javascript-e5b13e4e51af",
+      "jsmanifest": "https://jsmanifest.com/the-builder-pattern-in-javascript/",
+      "yash.sharma": "https://codeburst.io/builder-pattern-in-javascript-e5b13e4e51af",
       "do.factory": "https://www.dofactory.com/javascript/design-patterns/builder",
       "weekly.web.tips": "https://medium.com/weekly-webtips/the-builder-design-pattern-a7c9e6429fb7",
-      "learning.javascript.design.patterns.addy.osmani": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+      "addy.osmani": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
       "carlos.caballero": "https://www.carloscaballero.io/understanding-design-patterns-builder/",
-      "log.rocket.eslam.hefnawy": "https://blog.logrocket.com/how-typescript-design-patterns-help-you-write-better-code/"
+      "eslam.hefnawy": "https://blog.logrocket.com/how-typescraddyipt-design-patterns-help-you-write-better-code/",
+      "itay.elgazar": "https://hashnode.com/post/the-builder-pattern-in-nodejs-and-typescript-cjrd2a0i000gz8ps1adi47mpx"
     },
     "misc": {
       "refactoring.guru": "https://refactoring.guru/design-patterns/builder"
