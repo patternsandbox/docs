@@ -1,0 +1,17 @@
+{
+  "name": "builder",
+  "summary": "",
+  "description": [
+    "paragraph 1",
+    "paragraph 2",
+    "..."
+  ],
+  "category": "creational",
+  "example": "",
+  "refs": {
+    "js": {
+      "dofactory": "https://www.dofactory.com/javascript/design-patterns/builder",
+      "weekly-webtips": "https://medium.com/weekly-webtips/the-builder-design-pattern-a7c9e6429fb7"
+    }
+  }
+}
