@@ -1,17 +1,28 @@
 {
   "name": "builder",
-  "summary": "",
+  "summary": "Builder pattern separate the complexities of the creation logic from the final representation.",
   "description": [
-    "paragraph 1",
-    "paragraph 2",
-    "..."
+    "A builder pattern is a design pattern that lets us extract the object construction out of its own class (its representation) so that it can be used for multiple different representations. One advantage to using this pattern is that it lets us build objects with one operation on top of another where we don’t need to call all operations simultaneously, only the ones that are needed to produce a particular output. Ref: [code.burst.yash.sharma]",
+    "Builders allow us to construct complex objects by only specifying the type and content of the object, shielding us from the process of creating or representing the object explicitly. Ref. [learning.javascript.design.patterns.addy.osmani]",
+    "Builder pattern separates the `construction` of complex object which involve `computing multiple sequential operations` from its `representation`. It produces different representations of an object using the same construct"
   ],
   "category": "creational",
-  "example": "",
+  "problem": [
+    "Imagine a complex object that requires laborious, step-by-step initialization of many fields and nested objects. Such initialization code is usually buried inside a monstrous constructor with lots of parameters. Or even worse: scattered all over the client code. Ref: [refactoring.guru]",
+    "Imagine having a complex object that requires a large, systematic step-by-step initialization of abundant fields and nested objects. This can get buried inside a huge constructor with many parameters — or even scattered throughout your code. Ref: [the.builder.pattern.in.javascript.jsmanifest]",
+    "The seemingly easiest solution to complex object is to extend the base car class and create a set of subclasses, each covering pieces of the parameters. But if you think about it, you will eventually face the issue of having to create new subclasses every time you come across new parameters, such as having tinted windows. And every time this happens, your hierarchy will grow even more. Ref: [better.programming.jsmanifest]"
+  ],
+  "example": [],
   "refs": {
-    "js": {
-      "dofactory": "https://www.dofactory.com/javascript/design-patterns/builder",
-      "weekly-webtips": "https://medium.com/weekly-webtips/the-builder-design-pattern-a7c9e6429fb7"
+    "javascript": {
+      "the.builder.pattern.in.javascript.jsmanifest": "https://jsmanifest.com/the-builder-pattern-in-javascript/",
+      "code.burst.yash.sharma": "https://codeburst.io/builder-pattern-in-javascript-e5b13e4e51af",
+      "do.factory": "https://www.dofactory.com/javascript/design-patterns/builder",
+      "weekly.web.tips": "https://medium.com/weekly-webtips/the-builder-design-pattern-a7c9e6429fb7",
+      "learning.javascript.design.patterns.addy.osmani": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/"
+    },
+    "misc": {
+      "refactoring.guru": "https://refactoring.guru/design-patterns/builder"
     }
   }
 }
