@@ -15,8 +15,6 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@patternsandbox'
-      - run: npm config set registry https://npm.pkg.github.com/patternsandbox
-      - run: echo "//npm.pkg.github.com/:_authToken=${secrets.READ_WRITE_PACKAGE}" > ~/.npmrc
       - run: npm install
       - run: npm publish
         env:
