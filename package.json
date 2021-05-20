@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "@patternsandbox/docs",
   "version": "1.0.0",
   "description": "Design patterns metadata.",
   "main": "index.js",
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/patternsandbox/docs.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/patternsandbox"
   },
   "keywords": [],
   "author": {
