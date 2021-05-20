@@ -6,14 +6,12 @@
     ""
   ],
   "category": "",
-  "problem": [
-  ],
+  "problem": [],
   "example": [],
   "refs": {
     "javascript": {
       "babs.craig": "https://medium.com/@thebabscraig/javascript-design-patterns-part-1-the-factory-pattern-5f135e881192"
     },
-    "misc": {
-    }
+    "misc": {}
   }
 }

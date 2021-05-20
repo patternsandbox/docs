@@ -1,16 +1,12 @@
 {
   "name": "strategy",
   "summary": "",
-  "description": [
-  ],
+  "description": [],
   "category": "",
-  "problem": [
-  ],
+  "problem": [],
   "example": [],
   "refs": {
-    "javascript": {
-    },
-    "misc": {
-    }
+    "javascript": {},
+    "misc": {}
   }
 }
