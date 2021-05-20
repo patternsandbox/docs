@@ -11,8 +11,11 @@
     "url": "git+https://github.com/patternsandbox/docs.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Girma nigusse",
+    "email": "xgirma@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/patternsandbox/docs/issues"
   },
