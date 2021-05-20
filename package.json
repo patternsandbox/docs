@@ -1,7 +1,7 @@
 {
   "name": "docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Design patterns metadata.",
   "main": "index.js",
   "scripts": {
     "pretty": "npx prettier --no-config './**/*.{ts,js,json}' --write"
