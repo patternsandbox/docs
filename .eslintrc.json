@@ -3,7 +3,11 @@
     "node": true,
     "jest": true
   },
-  "extends": ["airbnb-base", "plugin:prettier/recommended","plugin:json/recommended"],
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended",
+    "plugin:json/recommended"
+  ],
   "rules": {
     "import/no-dynamic-require": 0,
     "global-require": 0,
