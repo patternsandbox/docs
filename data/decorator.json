@@ -4,7 +4,7 @@
   "description": [],
   "category": "structural",
   "problem": [],
-  "example": [],
+  "example": ["class"],
   "refs": {
     "javascript": {},
     "misc": {}

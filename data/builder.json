@@ -16,7 +16,7 @@
     "Imagine having a complex object that requires a large, systematic step-by-step initialization of abundant fields and nested objects. This can get buried inside a huge constructor with many parameters — or even scattered throughout your code. [jsmanifest]",
     "The seemingly easiest solution to complex object is to extend the base car class and create a set of subclasses, each covering pieces of the parameters. But if you think about it, you will eventually face the issue of having to create new subclasses every time you come across new parameters, such as having tinted windows. And every time this happens, your hierarchy will grow even more. [jsmanifest]"
   ],
-  "example": [],
+  "example": ["class", "function", "sequential", "typescript"],
   "refs": {
     "javascript": {
       "jsmanifest": "https://jsmanifest.com/the-builder-pattern-in-javascript/",
