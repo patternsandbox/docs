@@ -6,7 +6,9 @@
     "A builder pattern is a design pattern that lets us extract the object construction out of its own class (its representation) so that it can be used for multiple different representations. One advantage to using this pattern is that it lets us build objects with one operation on top of another where we don’t need to call all operations simultaneously, only the ones that are needed to produce a particular output. [yash.sharma]",
     "Builders allow us to construct complex objects by only specifying the type and content of the object, shielding us from the process of creating or representing the object explicitly. [addy.osmani]",
     "Builder pattern separates the `construction` of complex object which involve `computing multiple sequential operations` from its `representation`. It produces different representations of an object using the same construct",
-    "The builder design pattern is self-explanatory. It creates objects but it really shines when there is a need to create multiple objects with some similarities. A builder avoids the necessity to create myriad subclasses from a base class or big constructors with a lot of conditional logic using method chaining. [eslam.hefnawy]"
+    "The builder design pattern is self-explanatory. It creates objects but it really shines when there is a need to create multiple objects with some similarities. A builder avoids the necessity to create myriad subclasses from a base class or big constructors with a lot of conditional logic using method chaining. [eslam.hefnawy]",
+    "Director defines the order in which the construction steps are performed. Its purpose is the re-usability of specific configurations. The Director can be omitted in some implementations of this pattern. [carlos.caballero]",
+    "Directors are involved in defining methods ensuring that steps are executed in a specific order to build the commonly constructed objects. [jsmanifest]"
   ],
   "category": "creational",
   "problem": [
@@ -16,7 +18,7 @@
     "Imagine having a complex object that requires a large, systematic step-by-step initialization of abundant fields and nested objects. This can get buried inside a huge constructor with many parameters — or even scattered throughout your code. [jsmanifest]",
     "The seemingly easiest solution to complex object is to extend the base car class and create a set of subclasses, each covering pieces of the parameters. But if you think about it, you will eventually face the issue of having to create new subclasses every time you come across new parameters, such as having tinted windows. And every time this happens, your hierarchy will grow even more. [jsmanifest]"
   ],
-  "example": ["class", "function", "sequential", "typescript"],
+  "example": ["class", "function", "sequential", "typescript", "director"],
   "refs": {
     "javascript": {
       "jsmanifest": "https://jsmanifest.com/the-builder-pattern-in-javascript/",
