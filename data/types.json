@@ -1,0 +1,8 @@
+{
+  "creational": "These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.",
+  "structural": "Designed with regard to a class’s structure and composition. The main goal of most of these patterns is to increase the functionality of the class(es) involved, without changing much of its composition.",
+  "behavioural": "Behavioural patterns are designed depending on how one class communicates with others.",
+  "refs": {
+    "shivam.gupta": "https://shivamethical.medium.com/design-patterns-in-javascript-node-2020-96c19e157428"
+  }
+}
