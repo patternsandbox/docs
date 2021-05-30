@@ -1,5 +1,5 @@
 {
-  "creational": "Creational patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.",
-  "structural": "Stractural patterns  are designed with regard to a class’s structure and composition.",
+  "creational": "Creational patterns are designed for class instantiation and object creation to increase flexibility and reuse of existing code.",
+  "structural": "Stractural patterns are designed with regard to a class’s structure and composition.",
   "behavioural": "Behavioural patterns are designed depending on how one class communicates with others."
 }
