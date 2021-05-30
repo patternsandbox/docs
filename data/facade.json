@@ -15,7 +15,7 @@
   "problem": [
     "Imagine that you must make your code work with a broad set of objects that belong to a sophisticated library or framework. Ordinarily, you’d need to initialize all of those objects, keep track of dependencies, execute methods in the correct order, and so on. As a result, the business logic of your classes would become tightly coupled to the implementation details of 3rd-party classes, making it hard to comprehend and maintain. [refactoring.guru]"
   ],
-  "example": ["class"],
+  "example": ["class", "function"],
   "refs": {
     "javascript": {
       "do.factory": "https://www.dofactory.com/javascript/design-patterns/builder",
