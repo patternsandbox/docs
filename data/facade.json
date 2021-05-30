@@ -8,8 +8,7 @@
     "When building an application, we often face problems with external APIs. One has simple methods, other has them very complicated. Unifying them under one common interface is one of uses of the facade pattern. [Tomek.Buszewski]",
     "The facade pattern is used to simplify a client’s interaction with a system. So it can be used when an application has a large and complex underlying code that the client does not need to see. [educative.io]",
     "A facade is a class that provides a simple interface to a complex subsystem which contains lots of moving parts. A facade might provide limited functionality in comparison to working with the subsystem directly. However, it includes only those features that clients really care about. [refactoring.guru]",
-    "This depends on the environment you will be building the JavaScript in, each comes with it’s own set of tools to help you get the job done.\nIf you are building a node application or module you will make use of node’s require() method and module.exports syntax to construct a facade.\nIf you are building a web application or module using requirejs you will use define() and require() to build your facade, or if you are using es6 syntax you will be using the import and export statements. [hendrik.volschenk]",
-    ""
+    "This depends on the environment you will be building the JavaScript in, each comes with it’s own set of tools to help you get the job done.\nIf you are building a node application or module you will make use of node’s require() method and module.exports syntax to construct a facade.\nIf you are building a web application or module using requirejs you will use define() and require() to build your facade, or if you are using es6 syntax you will be using the import and export statements. [hendrik.volschenk]"
   ],
   "category": "structural",
   "problem": [
