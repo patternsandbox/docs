@@ -1,23 +1,10 @@
 {
   "env": {
-    "node": true,
-    "jest": true
+    "node": true
   },
   "extends": [
     "airbnb-base",
     "plugin:prettier/recommended",
     "plugin:json/recommended"
-  ],
-  "rules": {
-    "import/no-dynamic-require": 0,
-    "global-require": 0,
-    "new-cap": 0,
-    "camelcase": 0,
-    "no-param-reassign": 0,
-    "no-prototype-builtins": 0,
-    "prefer-spread": 0,
-    "import/no-named-as-default": 0,
-    "import/no-named-as-default-member": 0,
-    "max-classes-per-file": 0
-  }
+  ]
 }
