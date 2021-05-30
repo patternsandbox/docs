@@ -1,6 +1,6 @@
 {
   "name": "@patternsandbox/docs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Design patterns metadata.",
   "main": "index.js",
   "scripts": {
