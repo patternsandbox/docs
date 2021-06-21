@@ -9,7 +9,7 @@
     "Strategy pattern uses the inversion of control technique for having decoupled code. Inversion of control is also known under the “Hollywood Principle”, which states “Don’t call us, we’ll call you”. In functional programming this is done a bit more naturally just by passing a callback. [thomas.rubattel]",
     "Abstractly speaking, the Strategy pattern is relevant whenever you have a number of algorithms (or some combination of functions and inputs) that share some common behavior. Put another way, try using this pattern whenever you have a single Goal to accomplish with a number of Approaches. [mike.pennisi]"
   ],
-  "category": "behavioral",
+  "category": "behavioural",
   "problem": [
     "The problem with the if/else scenario is that it doesn’t scale. As our systems grow, we need a better way to inject new policies. We may have different strategies required for development, automated testing, and production environments. This is where the strategy pattern becomes so effective. [jarrett.meyer]",
     "Do you ever find yourself writing a lengthy switch statements or if statements structured like a switch. Luckily there is the Strategy Pattern to help alleviate this complex, sometimes unintelligible code. You may have also noticed that this code can have quite a high Cyclomatic Complexity. [los.techies]",
