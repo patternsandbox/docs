@@ -1,12 +1,34 @@
 {
   "name": "strategy",
-  "summary": "",
-  "description": [],
+  "summary": "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it. [rob.dodson]",
+  "description": [
+    "The Strategy pattern encapsulates alternative algorithms (or strategies) for a particular task. It allows a method to be swapped out at runtime by any other method (strategy) without the client realizing it. Essentially, Strategy is a group of algorithms that are interchangeable. [do.factory]",
+    "The key idea is to create objects which represent various strategies. These objects form a pool of strategies from which the context object can choose from to vary its behavior as per its strategy. These objects(strategies) perform the same operation, have the same(single) job and compose the same interface strategy. [chidume.nnamdi]",
+    "Define a family of algorithms, encapsulate each one, and make them interchangeable. [carlos.caballero]",
+    "This pattern seems to be very similar to Factory, Command and others. The main difference is that it is one to many pattern (one object can have many strategies). Also this pattern is used to define algorithms. [bumbu]",
+    "Strategy pattern uses the inversion of control technique for having decoupled code. Inversion of control is also known under the “Hollywood Principle”, which states “Don’t call us, we’ll call you”. In functional programming this is done a bit more naturally just by passing a callback. [thomas.rubattel]",
+    "Abstractly speaking, the Strategy pattern is relevant whenever you have a number of algorithms (or some combination of functions and inputs) that share some common behavior. Put another way, try using this pattern whenever you have a single Goal to accomplish with a number of Approaches. [mike.pennisi]"
+  ],
   "category": "behavioral",
-  "problem": [],
-  "example": ["function"],
+  "problem": [
+    "The problem with the if/else scenario is that it doesn’t scale. As our systems grow, we need a better way to inject new policies. We may have different strategies required for development, automated testing, and production environments. This is where the strategy pattern becomes so effective. [jarrett.meyer]",
+    "Do you ever find yourself writing a lengthy switch statements or if statements structured like a switch. Luckily there is the Strategy Pattern to help alleviate this complex, sometimes unintelligible code. You may have also noticed that this code can have quite a high Cyclomatic Complexity. [los.techies]",
+    "A strategy pattern can be used in Javascript in many cases to replace a switch statement. It is especially helpful when the number of conditions is dynamic or very large. It allows the code for each condition to be independent and separately testable. [rip.tutorial]"
+  ],
+  "example": ["function", "typescript", "class", "currying", "switch"],
   "refs": {
-    "javascript": {},
+    "javascript": {
+      "do.factory": "https://www.dofactory.com/javascript/design-patterns/strategy",
+      "rob.dodson": "https://robdodson.me/posts/javascript-design-patterns-strategy/",
+      "chidume.nnamdi": "https://blog.bitsrc.io/keep-it-simple-with-the-strategy-design-pattern-c36a14c985e9",
+      "carlos.caballero": "https://www.carloscaballero.io/stategy-pattern-in-javascript-typescript/",
+      "bumbu": "https://bumbu.me/javascript-strategy-pattern/",
+      "thomas.rubattel": "https://thomas-rubattel.medium.com/strategy-pattern-in-functional-programming-38ddcc2b2d50",
+      "mike.pennisi": "https://bocoup.com/blog/the-strategy-pattern-in-javascript",
+      "jarrett.meyer": "https://jarrettmeyer.com/2016/04/28/strategy-pattern-in-node",
+      "los.techies": "https://lostechies.com/seanbiefeld/2014/12/28/using-the-strategy-pattern-to-reduce-complexity-in-your-javascript/",
+      "rip.tutorial": "https://riptutorial.com/javascript/example/9116/strategy"
+    },
     "misc": {}
   }
 }
